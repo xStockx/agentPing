@@ -61,9 +61,9 @@ function checkErrorCount(servers){
             //Here! we will do the call to API Push
             console.log(`Send request API problem with PING ${obj.nameServer} errorCount : ${obj.errorPing}`)
         }
-        if (obj.responseOfPort > 5 )
+        if (obj.intentFailed > 5 )
         {
-            console.log(`Send request API problem with PORTS ${obj.nameServer} errorCount : ${obj.responseOfPort}`)
+            console.log(`Send request API problem with PORTS ${obj.nameServer} errorCount : ${obj.intentFailed}`)
         }
     })
 }
