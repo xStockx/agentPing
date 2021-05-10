@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/xStockx/agentPing#readme",
   "dependencies": {
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "ping": "^0.2.2",
     "telnet-client": "^1.0.4"
   }
